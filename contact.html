@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Me | Zaid Majed Mohammad Al Shorman | SID: 168962</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="contact.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">Z</span> ZAID AL SHORMAN</a>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="contact.html" aria-current="page">Contact Me</a>
+    </nav>
+  </header>
+  <main class="contact">
+    <section class="contact-intro">
+      <p class="eyebrow">Correspondence / 01</p>
+      <h1>Contact Me</h1>
+      <p>For university inquiries, you can reach me directly at my JUST email.</p>
+      <a class="email-link" href="mailto:zmalshorman23@cit.just.edu.jo">zmalshorman23@cit.just.edu.jo</a>
+    </section>
+    <section class="form-panel" aria-labelledby="form-heading">
+      <h2 id="form-heading">Leave a note</h2>
+      <p class="form-hint">All fields are required. This demo confirms submissions in your browser.</p>
+      <form id="contact-form" novalidate>
+        <div class="field-pair">
+        <div>
+        <label for="full-name">Full Name</label>
+        <input id="full-name" name="fullName" type="text" autocomplete="name" required>
+
+        </div>
+        <div>
+        <label for="email">Email Address</label>
+        <input id="email" name="email" type="email" autocomplete="email" required>
+
+        </div>
+        </div>
+        <label for="country">Country</label>
+        <input id="country" name="country" type="text" autocomplete="country-name" required>
+
+        <label for="comments">Comments</label>
+        <textarea id="comments" name="comments" rows="5" required></textarea>
+
+        <p class="error" id="form-error" role="alert"></p>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+  <footer><span>ZAID AL SHORMAN</span><span>Jordan University of Science and Technology</span></footer>
+</body>
+</html>
